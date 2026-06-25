@@ -2,8 +2,6 @@
 En este archivo se detalla el alcance del proyecto, es decir, que se va a realizar y que no.
 
 ## Descripcion general
-CundiReferencias es una plataforma web orientada a estudiantes universitarios que permite consultar y compartir referencias sobre profesores y materias. Su propósito es centralizar experiencias académicas de los estudiantes para facilitar la toma de decisiones al momento de inscribir asignaturas o seleccionar docentes.
-
 La plataforma estará disponible para consulta pública, permitiendo que cualquier visitante pueda acceder a las referencias existentes. Sin embargo, únicamente los usuarios registrados podrán crear, editar o eliminar sus propias referencias.
 
 ## Objetivo del proyecto
@@ -38,7 +36,6 @@ el MVP buscara validar la idea principal del sistema antes de considerar funcion
 - Buscar materias
 - Filtrar profesores por materia
 - Filtrar profesores por sede 
-- Filtrar profesores por facultad
 
 ## Funcionalidades fuera del alcance (NO se va a realizar)
 las siguientes funcionalidades no forman parte del MVP, sin embargo pueden ser funcionalides adicioneles, incluidas mas adelante el la creacion del proyecto: 

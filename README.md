@@ -34,6 +34,9 @@ La documentacion del proyecto se encuentra en la carpeta docs/
 - ProjectScope.md
 - TeamRules.md
 - CONTRIBUTING.md
+- Architecture.md
+- APIDesing.md
+-
 
 ## Licencia
 Pendiente... 

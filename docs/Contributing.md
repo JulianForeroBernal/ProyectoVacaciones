@@ -28,7 +28,7 @@ Antes de comenzar una nueva tarea:
 Si es la primera vez trabajando en el proyecto:
 
 ```bash
-git clone <repository-url>
+git clone <rhttps://github.com/JulianForeroBernal/ProyectoVacaciones.git>
 cd CundiReferencias
 ```
 

@@ -88,7 +88,6 @@ Responsabilidades:
 * Almacenar referencias.
 * Almacenar profesores.
 * Almacenar materias.
-* Almacenar facultades.
 * Almacenar sedes.
 
 Tecnología:
@@ -103,41 +102,14 @@ Tecnología:
 
 Usuario
 
-→ Frontend
-
-→ API
-
-→ Backend
-
-→ Base de Datos
-
-→ Backend
-
-→ Frontend
-
-→ Usuario
+Usuario → Frontend → API → Backend → Base de Datos → Backend → Frontend → Usuario
 
 ---
 
 ### Creación de Referencias
 
 Usuario autenticado
-
-→ Frontend
-
-→ API
-
-→ Backend
-
-→ Validaciones
-
-→ Base de Datos
-
-→ Confirmación
-
-→ Frontend
-
-→ Usuario
+→ Frontend → API → Backend → Validaciones → Base de Datos → Confirmación → Frontend → Usuario
 
 ---
 
@@ -174,12 +146,6 @@ Las materias serán definidas previamente por el sistema.
 
 ---
 
-### Faculty
-
-Representa una facultad universitaria.
-
----
-
 ### Campus
 
 Representa una sede universitaria.
@@ -194,7 +160,6 @@ Una referencia estará asociada a:
 
 * Un usuario.
 * Un profesor.
-* Una materia.
 
 ---
 
@@ -222,7 +187,7 @@ Reducir spam y mejorar la trazabilidad de las publicaciones.
 
 ### Catálogo Controlado
 
-Los profesores, materias, facultades y sedes serán gestionados previamente por el sistema.
+Los profesores, materias y sedes serán gestionados previamente por el sistema.
 
 Los usuarios no podrán crear estas entidades durante el MVP.
 
