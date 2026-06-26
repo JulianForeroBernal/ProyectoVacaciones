@@ -23,9 +23,9 @@ Todo el código deberá escribirse en inglés.
 
 Ejemplos:
 
-teacher_name
-user_id
-review_service
+- teacher_name
+- user_id
+- review_service
 
 ### Commits
 
@@ -33,11 +33,11 @@ Los mensajes de commit deberán escribirse en inglés siguiendo una convención 
 
 Ejemplos:
 
-feat: add user registration
+feat: add user registration  (feat -> feature -> carateristica)
 
-fix: validate review score
+fix: validate review score   (fix -> correccion)
 
-docs: update project scope
+docs: update project scope   (docs -> documentos)
 
 ### Nombres Tecnicos
 
@@ -51,15 +51,83 @@ Cuando un integrante comience a trabajar en una tarea, deberá informarlo para e
 
 La comunicacion del equipo sera mediante whatsapp por el grupo ("Proyecto Vacaciones")
 
-## 5. Gestion de tareas
+## 5. Gestión de Tareas con GitHub Issues
 
-Antes de comenzar una funcionalidad:
+Todas las funcionalidades, correcciones o mejoras deberán gestionarse mediante GitHub Issues.
 
-1. La tarea debe estar definida.
-2. Debe existir un responsable principal.
-3. El resto del equipo debe conocer que esa tarea está siendo desarrollada.
+El objetivo es mantener la trazabilidad del trabajo, evitar duplicación de esfuerzos y facilitar la organización del equipo.
 
-Mientras una persona esté trabajando activamente en una funcionalidad, los demás integrantes no deberán modificar la misma área sin coordinación previa.
+### Flujo de Trabajo
+
+1. Crear un Issue describiendo la tarea.
+2. Asignar un responsable principal.
+3. Crear una rama asociada al Issue.
+4. Implementar la solución.
+5. Abrir un Pull Request.
+6. Solicitar revisión.
+7. Realizar merge una vez aprobado.
+8. Cerrar el Issue.
+
+### Creación de Issues
+
+Cada Issue deberá incluir:
+
+* Título claro y descriptivo.
+* Descripción breve del objetivo.
+* Criterios de aceptación cuando sea necesario.
+
+Ejemplo:
+
+Title:
+
+```text
+Add user registration
+```
+
+Description:
+
+```text
+Implement user registration using institutional email validation.
+```
+
+### Asignación
+
+Cada Issue tendrá un responsable principal.
+
+Otros integrantes podrán colaborar si existe coordinación previa.
+
+### Relación entre Issues y Branches
+
+Cada rama debe estar asociada a un Issue.
+
+Ejemplo:
+
+```text
+Issue #12 - Add user registration
+
+feature/user-registration
+```
+
+### Relación entre Issues y Pull Requests
+
+Todo Pull Request deberá indicar el Issue que resuelve.
+
+Ejemplo:
+
+```text
+Closes #12
+```
+
+Al realizar el merge, GitHub cerrará automáticamente el Issue correspondiente.
+
+### Beneficios
+
+* Mejor organización del trabajo.
+* Seguimiento del progreso.
+* Historial de decisiones.
+* Menor riesgo de duplicar tareas.
+* Aprendizaje de flujos de trabajo utilizados en equipos profesionales.
+
 
 ## 6. Uso de Git y Github
 
